@@ -11,7 +11,6 @@ Things to do:
 - Highest killstreak on winpanel.res
 - Add a readme explaining customization options
 - Make it work on lower resolutions
-- Add create server button to MM
 - Put view promo codes button somewhere on MM
 - Fix notification button on MM
 - Fix ammo/health number cutoff
