@@ -3229,7 +3229,7 @@
 			"use_proportional_insets" "1"
 			"font"				"WebL24"
 			"textAlignment"		"center"
-			"labelText"			"Prerelease Version"
+			"labelText"			"Version 0"
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"default"			"1"
