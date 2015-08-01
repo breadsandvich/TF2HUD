@@ -527,7 +527,7 @@
 		"visible" 		"0"
 		"enabled" 		"1"
 		"xpos"			"c-120"
-		"ypos"			"c-66"
+		"ypos"			"c-96"
 		"wide"	 		"240"
 		"tall"	 		"24"
 		"priority"		"40"
