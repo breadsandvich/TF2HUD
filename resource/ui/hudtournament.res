@@ -472,6 +472,7 @@
 		"labelText"			"%bluenamelabel%"
 		"textAlignment"		"west"
 		"textinsetx"		"5"
+		"fgcolor_override"	"255 255 255 255"
 		
 		if_mvm
 		{
@@ -508,6 +509,7 @@
 		"labelText"			"%bluestate%"
 		"textAlignment"		"east"
 		"textinsetx"		"5"
+		"fgcolor_override"	"255 255 255 255"
 		
 		if_mvm
 		{
@@ -578,6 +580,7 @@
 		"labelText"			"%rednamelabel%"
 		"textAlignment"		"east"
 		"textinsetx"		"5"
+		"fgcolor_override"	"255 255 255 255"
 		
 		if_mvm
 		{
@@ -613,7 +616,8 @@
 		"wrap"				"0"
 		"labelText"			"%redstate%"
 		"textAlignment"		"west"
-		"textinsetx"		"5"
+		"textinsetx"		"5"	
+		"fgcolor_override"	"255 255 255 255"
 		
 		if_mvm
 		{
