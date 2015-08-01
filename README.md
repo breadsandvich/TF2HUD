@@ -4,3 +4,14 @@ Yo! I'm Bread, and I'm making a custom TF2 HUD. In it's current state, it's nowh
 Cheers,
 
 Bread
+
+
+Things to do:
+- More customizations options
+- Highest killstreak on winpanel.res
+- Add a readme explaining customization options
+- Make it work on lower resolutions
+- Add create server button to MM
+- Put view promo codes button somewhere on MM
+- Fix notification button on MM
+- Fix ammo/health number cutoff
