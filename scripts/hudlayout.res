@@ -554,7 +554,7 @@
 		"visible" 		"0"
 		"enabled" 		"1"
 		"xpos"			"c-120"
-		"ypos"			"c42"
+		"ypos"			"c72"
 		"wide"	 		"240"
 		"tall"	 		"24"
 		"priority"		"35"
