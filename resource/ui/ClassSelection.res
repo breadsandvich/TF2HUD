@@ -935,8 +935,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CountLabel"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"9999"
+		"ypos"				"9999"
 		"zpos"				"0"
 		"wide"				"0"
 		"tall"				"0"
