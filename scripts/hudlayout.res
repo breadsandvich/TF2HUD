@@ -122,7 +122,7 @@
 		"wide"				"50"
 		"tall"				"50"
 		"enabled"			"1"
-		"visible"			"1"
+		"visible"			"0"
 		"textAlignment"		"center"
 		"labelText" 		"h"
 		"font"				"size: 30, outline: off"
