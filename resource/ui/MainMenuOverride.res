@@ -1456,7 +1456,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"CreateServerButton"
-		"xpos"				"226"
+		"xpos"				"225"
 		"ypos"				"c-37"
 		"zpos"				"1001"
 		"wide"				"25"
@@ -1487,7 +1487,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"textinsetx"		"0"
+			"textinsetx"		"9999"
 			"use_proportional_insets" "1"
 			"font"				"WebL8"
 			"textAlignment"		"west"
