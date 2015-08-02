@@ -8,9 +8,17 @@ Bread
 
 Things to do:
 - More customizations options
-- Highest killstreak on winpanel.res
 - Add a readme explaining customization options
 - Make it work on lower resolutions
 - Put view promo codes button somewhere on MM
 - Fix notification button on MM
-- Fix ammo/health number cutoff
+- Position vote/mute/coach buttons on MM
+- Pretty much revisit the entire MM but don't overhaul it entirely
+- Make functioning MvM scoreboard
+- Edit build/destroy menus for engineer
+- Reposition team join and class join menus
+- Move all objective-related elements to top of screen
+- Fix dumb killstreak meter
+- Item effect meters!
+- Reposition spectator target ID
+- Remove the "well that was impressive!" record thing in game. SUPER annoying.
