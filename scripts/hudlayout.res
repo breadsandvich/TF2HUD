@@ -307,7 +307,7 @@
 		"xpos"			"c125"
 		"ypos"			"c36"
 		"wide"			"300"
-		"tall"			"36"
+		"tall"			"40"
 	}
 	
 	HudObjectiveStatus
