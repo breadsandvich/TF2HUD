@@ -214,11 +214,6 @@
 		"autoResize"		"0"
 		"PaintBackgroundType"	"2"
 		"border"			"MainMenuBGBorder"
-
-		if_competitive
-		{
-			"tall"		"156"
-		}
 	}
 	"SidePanelBG"
 	{
