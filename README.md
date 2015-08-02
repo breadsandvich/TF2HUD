@@ -21,4 +21,3 @@ Things to do:
 - Fix dumb killstreak meter
 - Item effect meters!
 - Reposition spectator target ID
-- Remove the "well that was impressive!" record thing in game. SUPER annoying.
