@@ -67,6 +67,8 @@
 		"textAlignment"		"North-West"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"255 255 255 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	"TargetDataLabel"
 	{	
@@ -86,6 +88,8 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"255 255 255 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -108,16 +112,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"xpos_minmode"	"30"
-		"ypos"			"20"
-		"ypos_minmode"	"19"
+		"xpos"			"50"
+		"ypos"			"14"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
+		"image"			"../hud/leaderboard_class_soldier"
 		"scaleImage"	"1"
 	}
 	
