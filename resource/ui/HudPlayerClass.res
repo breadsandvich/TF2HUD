@@ -17,7 +17,7 @@
 	{
 		"ControlName"		"CTFClassImage"
 		"fieldName"			"PlayerStatusClassImage"
-		"xpos"				"c-38"
+		"xpos"				"r76"
 		"ypos"				"r75"
 		"zpos"				"2"
 		"wide"				"76"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"c-50"
+		"xpos"				"r100"
 		"ypos"				"r200"
 		"zpos"				"2"		
 		"wide"				"100"
