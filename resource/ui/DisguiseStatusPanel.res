@@ -62,6 +62,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	
 	"WeaponNameLabel"
@@ -82,6 +83,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	
 	"SpectatorGUIHealth"
