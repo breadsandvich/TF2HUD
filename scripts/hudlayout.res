@@ -326,16 +326,10 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-150"
 		"ypos"	"0"
-		"wide"	"200"
+		"wide"	"300"
 		"tall"	"160"
-		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
-	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter
@@ -1070,15 +1064,14 @@
 	{
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
-		"ypos"					"410"
+		"ypos"					"r200"
 		"wide"					"f0"
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"height_offset"			"0" // distance from the bottom of the panel
 	}
 
 	HudCapturePanel
@@ -1167,10 +1160,10 @@
 		"fieldName"				"FreezePanelCallout"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	AnnotationsPanelCallout
