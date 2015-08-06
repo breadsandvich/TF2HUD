@@ -1307,12 +1307,10 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-62"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
-		"wide"					"320"
-		"tall"					"100"
+		"wide"					"124"
+		"tall"					"24"
 	}
 
 	HudArenaNotification
