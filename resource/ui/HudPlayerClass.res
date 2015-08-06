@@ -17,7 +17,7 @@
 	{
 		"ControlName"		"CTFClassImage"
 		"fieldName"			"PlayerStatusClassImage"
-		"xpos"				"r76"
+		"xpos"				"0"
 		"ypos"				"r75"
 		"zpos"				"2"
 		"wide"				"76"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"r100"
+		"xpos"				"0"
 		"ypos"				"r200"
 		"zpos"				"2"		
 		"wide"				"100"
@@ -184,8 +184,8 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"145"
-				"angles_z"		"0"
+				"angles_y"		"215"
+				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"4"
 				"origin_z"		"-82"
@@ -194,7 +194,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"172"
+				"angles_y"		"188"
 				"angles_z"		"0"
 				"origin_x"		"130"
 				"origin_y"		"-3"
@@ -204,7 +204,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"170"
+				"angles_y"		"190"
 				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"-5"
@@ -224,7 +224,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"178"
+				"angles_y"		"182"
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
@@ -244,7 +244,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"172"
+				"angles_y"		"188"
 				"angles_z"		"0"
 				"origin_x"		"175"
 				"origin_y"		"-5"
@@ -254,7 +254,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_y"		"200"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
@@ -264,7 +264,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"168"
+				"angles_y"		"192"
 				"angles_z"		"0"
 				"origin_x"		"140"
 				"origin_y"		"-2"
