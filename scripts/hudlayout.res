@@ -1223,10 +1223,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
+		"xpos"			"c125"
+		"ypos"			"c-57"
+		"wide"			"999"
+		"tall"			"999"
 		"PaintBackgroundType"	"0"
 	}
 	
