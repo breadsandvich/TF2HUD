@@ -16,8 +16,4 @@ Things to do:
 - Pretty much revisit the entire MM but don't overhaul it entirely
 - Make functioning MvM scoreboard
 - Edit build/destroy menus for engineer
-- Reposition team join and class join menus
-- Move all objective-related elements to top of screen
 - Fix dumb killstreak meter
-- Item effect meters!
-- Reposition spectator target ID
