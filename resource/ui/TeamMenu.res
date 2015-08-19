@@ -590,8 +590,8 @@
 		"border_armed"				"NoBorder"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"		"HUDBlueTeamSolid"
-		"depressedBgColor_override"	"HUDBlueTeamSolid"
+		"armedBgColor_override"		"BreadBST"
+		"depressedBgColor_override"	"BreadBST"
 	}
 	"BlueCount"
 	{
@@ -646,8 +646,8 @@
 		"border_armed"				"NoBorder"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"		"HUDRedTeamSolid"
-		"depressedBgColor_override"	"HUDRedTeamSolid"
+		"armedBgColor_override"		"BreadRST"
+		"depressedBgColor_override"	"BreadRST"
 	}
 	"RedCount"
 	{
