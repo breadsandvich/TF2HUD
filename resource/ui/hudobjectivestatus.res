@@ -8,7 +8,7 @@
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"100"
-		"tall"				"25"
+		"tall"				"50"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"		"22"

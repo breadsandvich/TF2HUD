@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
+		"xpos"				"50"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
@@ -15,7 +15,23 @@
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"TimePanelValue"
+			"fieldName"			"TimePanelValue"
+			"font"				"WebL24"
+			"fgcolor"			"255 255 255 255"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"3"
+			"wide"				"100"
+			"tall"				"25"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"center"
+			"labelText"			"0:00"
+		}
+		"BTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BTeamLabel"
 			"font"			"WebL24"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"0"
@@ -25,8 +41,22 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
-			"labelText"		"0:00"
+			"textAlignment"		"west"
+			"labelText"		"Blue:"
+		}
+		"BTeamBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"BTeamBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"HUDBlueTeamSolid"
+			"scaleImage"	"1"
 		}
 	}
 
@@ -34,7 +64,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"200"
+		"xpos"				"150"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
