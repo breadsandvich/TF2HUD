@@ -40,7 +40,7 @@
 		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"BreadB"
+		"fillcolor"			"BreadBST"
 		"scaleImage"		"1"
 	}
 	"RedTimer"
@@ -83,7 +83,7 @@
 		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"BreadR"
+		"fillcolor"			"BreadRST"
 		"scaleImage"		"1"
 	}
 	"ActiveTimerBG"

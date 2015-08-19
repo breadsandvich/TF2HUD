@@ -37,7 +37,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"HUDBlueTeamSolid"
+		"fillcolor"			"BreadBST"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -59,7 +59,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"		"1"
-		"fillcolor"			"HUDRedTeamSolid"
+		"fillcolor"			"BreadRST"
 		
 		if_mvm
 		{
