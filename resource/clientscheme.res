@@ -900,6 +900,17 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"WebB32OL"
+		{
+			"1"
+			{
+				"name"		"WeblySleek UI SemiBold"
+				"tall"		"32"
+				"antialias"	"1"
+				"outline"	"1"
+				"additive"	"0"
+			}
+		}
 		"size: 10, outline: off"
 		{
 			"1"
