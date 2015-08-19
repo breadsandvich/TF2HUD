@@ -19,8 +19,10 @@ Scheme
 	Colors
 	{
 		"BreadB"			"87 123 146 255"
+		"BreadBST"			"87 123 146 192"
 		"BreadBT"			"87 123 146 128"
 		"BreadR"			"202 56 48 255"
+		"BreadRST"			"202 56 48 192"
 		"BreadRT"			"202 56 48 128"
 		// base colors
 		"Orange"			"178 82 22 255"
