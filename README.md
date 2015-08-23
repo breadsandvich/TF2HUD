@@ -1,19 +1,5 @@
 # TF2 HUD
-Yo! I'm Bread, and I'm making a custom TF2 HUD. In it's current state, it's nowhere near finished. However, I thought I'd upload the files to GitHub to give people an easy means of downloading it for playtesting purposes. If you'd like to test this Frankenstein-esque abomination of a HUD for me and add me on Steam at /id/BreadSandvich to give me feedback or recommendations, I'd really appreciate it!
+Yo! I'm Bread, and I made some progress on a custom TF2 HUD. I hoped that one day it would be finished. However, I've since lost all motivation for TF2 and HUD-making in general, so I will no longer be updating this. I figure I may as well leave the HUD files up here in case anyone wants a partially complete HUD. If you'd like to continue developing it for whatever reason, add me on Steam and let me know at /id/BreadSandvich. I'd like to see how it turns out!
 
-Cheers,
-
+Thanks,
 Bread
-
-
-Things to do:
-- More customizations options
-- Add a readme explaining customization options
-- Make it work on lower resolutions
-- Put view promo codes button somewhere on MM
-- Fix notification button on MM
-- Position vote/mute/coach buttons on MM
-- Pretty much revisit the entire MM but don't overhaul it entirely
-- Make functioning MvM scoreboard
-- Edit build/destroy menus for engineer
-- Fix dumb killstreak meter
