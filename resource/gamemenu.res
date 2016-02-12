@@ -30,11 +30,10 @@
 	}
 	"PlayCompetitiveButton"
 	{
-		"label" "lol comp" 
+		"label" "Play Competitive" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
+		"OnlyAtMenu" "0"
 	}
 	"ServerBrowserButton"
 	{
