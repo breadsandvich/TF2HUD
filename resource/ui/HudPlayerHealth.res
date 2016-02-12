@@ -90,19 +90,18 @@
 	}
 	"PlayerStatusBleedImage" //bleeding
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"24"
-		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"PlayerStatusBleedImage"
+		"xpos"				"200"//this does nothing
+		"ypos"				"24"//this does something
+		"zpos"				"7"
+		"wide"				"32"
+		"tall"				"32"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"	
+		"image"				"../vgui/bleed_drop"
+		"fgcolor"			"TanDark"
 	}
 	"PlayerStatusHookBleedImage" //bleeding from grapple hook
 	{
@@ -265,8 +264,6 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 	}
-	
-
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
