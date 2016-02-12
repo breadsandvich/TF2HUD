@@ -365,7 +365,7 @@
 		"ypos"			"c0"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
-		"tall"			"10"
+		"tall"			"200"
 		"MeterFG"		"255 255 255 255"
 		"MeterBG"		"0 0 0 128"
 	}	
@@ -465,9 +465,9 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c36"
+		"ypos"					"c0"
 		"wide"					"100"
-		"tall"  				"36"
+		"tall"  				"200"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
