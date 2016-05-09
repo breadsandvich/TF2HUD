@@ -1,4 +1,4 @@
-"Resource/UI/FullLoadoutPanel.res"
+"Resource/UI/BackpackPanel.res"
 {
 	"backpack_panel"
 	{
@@ -123,8 +123,9 @@
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 
 			"New"
@@ -330,7 +331,6 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
-
 	
 	"mouseoveritempanel"
 	{
@@ -338,7 +338,7 @@
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
-		"zpos"			"102"
+		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
@@ -401,72 +401,72 @@
 		}
 	}
 	
-	//"PrevPageButton"
-	//{
-	//	"ControlName"	"CExButton"
-	//	"fieldName"		"PrevPageButton"
-	//	"xpos"			"c195"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"20"
-	//	"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"tabPosition"	"0"
-	//	"labelText"		"<"
-	//	"font"			"HudFontSmallBold"
-	//	"textAlignment"	"center"
-	//	"dulltext"		"0"
-	//	"brighttext"	"0"
-	//	"Command"		"prevpage"
-	//	"sound_depressed"	"UI/buttonclick.wav"
-	//	"sound_released"	"UI/buttonclickrelease.wav"
-	//}		
-	//
-	//"CurPageLabel"
-	//{
-	//	"ControlName"	"CExLabel"
-	//	"fieldName"		"CurPageLabel"
-	//	"font"			"HudFontSmallBold"
-	//	"labelText"		"%backpackpage%"
-	//	"textAlignment"	"center"
-	//	"xpos"			"c220"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"40"
-	//	"tall"			"20"
-	//	"autoResize"	"1"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"fgcolor_override" "200 80 60 255"
-	//}
-	//
-	//"NextPageButton"
-	//{
-	//	"ControlName"	"CExButton"
-	//	"fieldName"		"NextPageButton"
-	//	"xpos"			"c265"
-	//	"ypos"			"290"
-	//	"zpos"			"1"
-	//	"wide"			"20"
-	//	"tall"			"20"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"1"
-	//	"enabled"		"1"
-	//	"tabPosition"	"0"
-	//	"labelText"		">"
-	//	"font"			"HudFontSmallBold"
-	//	"textAlignment"	"center"
-	//	"dulltext"		"0"
-	//	"brighttext"	"0"
-	//	"Command"		"nextpage"
-	//	"sound_depressed"	"UI/buttonclick.wav"
-	//	"sound_released"	"UI/buttonclickrelease.wav"
-	//}		
+	"PrevPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButton"
+		"xpos"			"c-288"
+		"ypos"			"330"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&A"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
+	"CurPageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurPageLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%backpackpage%"
+		"textAlignment"	"center"
+		"xpos"			"c-263"
+		"ypos"			"330"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "200 80 60 255"
+	}
+	
+	"NextPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageButton"
+		"xpos"			"c-218"
+		"ypos"			"330"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&D"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"nextpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 	
 	"DragToNextPageButton"
 	{

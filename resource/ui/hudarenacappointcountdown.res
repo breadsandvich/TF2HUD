@@ -1,15 +1,15 @@
-"Resource/UI/HudArenaCapPointCountdown.res"
+"Resource/UI/ControlPointCountdown.res"
 {
 	"CapCountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapCountdownLabel"
-		"font"			"HudFontMedium"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"30"
-		"tall"			"30"
+		"font"			"surface20"
+		"xpos"			"4"
+		"ypos"			"4"
+		"zpos"			"1"
+		"wide"			"22"
+		"tall"			"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -21,3 +21,4 @@
 		"bgcolor"		"235 226 202 255"
 	}
 }
+

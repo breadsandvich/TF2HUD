@@ -4,53 +4,49 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-30"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"30"
+		"xpos"				"c-102"
+		"ypos"				"-21"
+		"zpos"				"1"
+		"wide"				"110"
+		"tall"				"150"
 		"visible"		"1"
-	
+
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"xpos"			"37"
+			"ypos"			"21"
+			"zpos"			"2"
+			"wide"			"38"
+			"tall"			"13"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"			"../hud/objectives_timepanel_blue_bg"			
+		
+			"src_corner_height"		"3"				// pixels inside the image
+			"src_corner_width"		"3"
+			
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
+			"font"			"surface14"
+			"fgcolor"		"White"
 			"xpos"			"23"
-			"ypos"			"7"
-			"zpos"			"2"
-			"wide"			"30"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"ypos"			"21"
+			"zpos"			"3"
+			"wide"			"65"
+			"tall"			"13"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"textAlignment"		"center"
 			"labelText"		"%blue_alive%"
-			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
-		}	
+		}		
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
@@ -62,8 +58,8 @@
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"font"			"HudFontMedium"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
@@ -79,8 +75,8 @@
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
 		}
@@ -90,52 +86,48 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-30"
-		"ypos"			"21"
-		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"30"
+		"xpos"				"c-12"
+		"ypos"				"-21"
+		"zpos"				"1"
+		"wide"				"110"
+		"tall"				"150"
 		"visible"		"1"
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"xpos"			"37"
+			"ypos"			"21"
+			"zpos"			"2"
+			"wide"			"38"
+			"tall"			"13"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"			"../hud/objectives_timepanel_red_bg"			
+		
+			"src_corner_height"		"3"				// pixels inside the image
+			"src_corner_width"		"3"
+			
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
+			"font"			"surface14"
+			"fgcolor"		"White"
 			"xpos"			"23"
-			"ypos"			"7"
-			"zpos"			"2"
-			"wide"			"30"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"ypos"			"21"
+			"zpos"			"3"
+			"wide"			"65"
+			"tall"			"13"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"textAlignment"		"center"
 			"labelText"		"%red_alive%"
-			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
 		}	
 		"countshadow"
 		{
@@ -148,8 +140,8 @@
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"font"			"HudFontMedium"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
@@ -165,8 +157,8 @@
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
 		}			

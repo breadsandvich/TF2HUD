@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"ypos_minmode"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -48,12 +47,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
+		"xpos"				"c-245"
+		"ypos"				"r120"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_minmode"		"65"
-		"ypos_minmode"		"r88"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -62,12 +59,10 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"33"
-		"ypos"				"r15"
-		"wide"				"100"
+		"xpos"				"c-210"
+		"ypos"				"r39"
+		"wide"				"130"
 		"tall"				"100"
-		"xpos_minmode"		"145"
-		"ypos_minmode"		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -97,7 +92,7 @@
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
-					
+		
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -227,37 +222,37 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"c-150"
+			"xpos"			"c-90"
 			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
+			"wide"			"180"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"	
 		}
 	
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"HudFontSmall"
+			"font"			"surface12"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
-			"xpos"			"c-150"
+			"xpos"			"c-90"
 			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
+			"wide"			"180"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"255 255 255 255"		
 		}
 	}
 	

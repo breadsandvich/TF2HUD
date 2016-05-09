@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"200"
+		"wide"			"0"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -18,12 +18,33 @@
 		"scaleImage"	"1"					
 	}
 	
+	"Border"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"Border"
+		"xpos"			"14"
+		"ypos"			"1"
+		"zpos"			"0"
+		"wide"			"170"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"src_corner_height"	"56"				// pixels inside the image
+		"src_corner_width"	"56"
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		"scaleImage"		"1"
+	}
+
 	"HealthBarPanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HealthBarPanel"
 		"xpos"			"15"
-		"ypos"			"16"
+		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"168"
 		"tall"			"18"
@@ -38,7 +59,7 @@
 			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"168"
-			"tall"			"18"
+			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -55,7 +76,7 @@
 		"fieldName"		"StunMeter"
 		"font"			"Default"
 		"xpos"			"50"
-		"ypos"			"19"
+		"ypos"			"3"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"8"				

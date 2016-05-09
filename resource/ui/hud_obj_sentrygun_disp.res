@@ -22,7 +22,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"120"
+		"wide"			"0"
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"

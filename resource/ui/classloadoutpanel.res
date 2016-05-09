@@ -1,4 +1,4 @@
-"Resource/UI/FullLoadoutPanel.res"
+"Resource/UI/ClassLoadoutPanel.res"
 {
 	"class_loadout_panel"
 	{
@@ -62,8 +62,9 @@
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 		}
 
@@ -194,9 +195,9 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"30"
-		"allow_rot"		"1"
-				
+		"fov"				"30"
+		"allow_manip"		"1"
+		
 		"model"
 		{
 			"force_pos"	"1"

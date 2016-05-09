@@ -1,126 +1,118 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
 	"ResumeGameButton"
 	{
 		"label"			"#MMenu_ResumeGame"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"subimage"		"icon_resume"
 	}
 	"QuickplayButton"
 	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyAtMenu" "1"
+		"label"			"Quickplay"
+		"command"		"quickplay"
+		"subimage"		"glyph_multiplayer"
+		"OnlyAtMenu"	"1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
+		"label"			"#MMenu_NewGame"
+		"command"		"quickplay"
+		"subimage"		"glyph_server"
+		"OnlyInGame"	"1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "Play MvM" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		"label"			"Cooperative"
+		"command"		"playpve"
+		"subimage"		"glyph_coop"
+		"OnlyAtMenu"	"1"
 	}
-	"PlayCompetitiveButton"
+	"PlayCompButton"
 	{
-		"label" "Play Competitive" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
+		"label"			"Competitive" 
+		"command"		"ladder_ui_show"
+		"subimage"		"glyph_practice"
+		"OnlyAtMenu"	"1"
+	}	
 	"ServerBrowserButton"
 	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_workshop_view"
-		"OnlyAtMenu" "1"
-	} 
+		"label"			"Servers"
+		"command"		"OpenServerBrowser"
+		"subimage"		"glyph_server_browser"
+		"OnlyAtMenu"	"1"
+	}
 	"ChangeServerButton"
 	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_workshop_view"
-		"OnlyInGame" "1"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
+		"label"			"#MMenu_ChangeServer"
+		"command"		"OpenServerBrowser"
+		"subimage"		"glyph_server_browser"
+		"OnlyInGame"	"1"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
+		"label"			"Workshop"
+		"command"		"engine OpenSteamWorkshopDialog"
+		"subimage"		"glyph_steamworkshop"
 	}
-	"VRModeButton"
+	"Console"
 	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
+		"label"			"Console"
+		"command"		"engine con_enable 1;toggleconsole"
+		"subimage"		"glyph_forums"
 	}
-	"TrainingButton"
+	"DemoUI"
 	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
+		"label"			"DemoUI"
+		"command"		"engine demoui"
 	}
-	// These buttons get positioned by the MainMenuOverride.res	
+	"Scoreboard"
+	{
+		"label"			"Scoreboard"
+		"command"		"engine toggle cl_hud_minmode"
+	}
+
+	// These buttons get positioned by the MainMenuOverride.res
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu"	"0"
-		"OnlyInGame"	"0"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"label"			"Create"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu"	"1"
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Store"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}	
+		"label"			"Store"
+		"command"		"engine open_store"
+		"subimage"		"glyph_store"
+	}
 	"CharacterSetupButton"
 	{
-		"label" "Backpack"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"label"			"Items"
+		"command"		"engine open_charinfo"
+		"subimage"		"glyph_items"
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"subimage"		"icon_checkbox"
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"Mute Players"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"subimage"		"glyph_muted"
 	}
-	"RequestCoachButton"
+	"ReportPlayerButton"
 	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
+		"label"			"Report Player"
+		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"subimage"		"glyph_alert"
 	}
 }

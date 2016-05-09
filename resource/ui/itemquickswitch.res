@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"c-125"
-		"ypos"			"280"
-		"wide"			"275"
-		"tall"			"160"
+		"xpos"			"r248"
+		"ypos"			"c-74"
+		"wide"			"249"
+		"tall"			"125"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -16,15 +16,15 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"0 0 0 0"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
 		
 		"itemskv"	
 		{
-			"wide"			"220"
-			"tall"			"40"
+			"wide"			"200"
+			"tall"			"30"
 			"bgcolor_override"		"59 54 48 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
@@ -33,15 +33,34 @@
 			"model_xpos"	"25"
 			"model_ypos"	"3"
 			"model_wide"	"58"		
-			"model_tall"	"34"
+			"model_tall"	"24"
 			
+			"text_xpos"		"32"
+			"text_wide"		"205"
 			"text_center"	"1"
-			"text_xpos"		"60"
-			"text_wide"		"190"
 			"name_only"		"1"
 			
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"178 178 178 255"
 		}
+	}
+	
+	"BGPanel"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10"
+		"wide"			"260"
+		"tall"			"125"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"			
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"			
+		"draw_corner_width"		"3"
+		"draw_corner_height" 	"3"
 	}
 	
 	"CaratLabel"
@@ -54,7 +73,7 @@
 		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"0"	//20
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -72,7 +91,7 @@
 		"xpos"			"20"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"0"	//60
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -84,18 +103,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"surface14"
 		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"west"
-		"xpos"			"80"
-		"ypos"			"5"
+		"textAlignment"	"center"		//west
+		"xpos"			"2"		//45
+		"ypos"			"7"
 		"zpos"			"1"
-		"wide"			"140"
+		"wide"			"230"		//200
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"TopLine"
@@ -105,7 +125,7 @@
 		"xpos"			"5"
 		"ypos"			"20"
 		"zpos"			"2"
-		"wide"			"265"
+		"wide"			"0"	//240
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -120,10 +140,10 @@
 		"fieldName"		"itemcontainerscroller"
 		"xpos"			"5"
 		"ypos"			"30"
-		"wide"			"265"
-		"tall"			"125"
+		"wide"			"220"
+		"tall"			"90"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"59 54 48 255"
+		"fgcolor_override"	"160 160 160 200"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
@@ -132,10 +152,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"30"
+		"xpos"			"2"
 		"ypos"			"0"
-		"wide"			"240"
-		"tall"			"125"
+		"wide"			"220"
+		"tall"			"120"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
 		
@@ -143,16 +163,17 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyEquippedBackground"
-			"font"			"ItemFontNameSmallest"
-			"labelText"		"#QuickSwitchEquipped"
+			"font"			"surface18"
+			"labelText"		"    *"
 			"textAlignment"	"north-west"
 			"xpos"			"3"
 			"ypos"			"2"
 			"zpos"			"100"
 			"wide"			"200"
-			"tall"			"40"
+			"tall"			"30"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
+			//"fgcolor" 			"200 80 60 255"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"0 0 0 0"
 		}
@@ -162,17 +183,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoItemsLabel"
-		"font"			"ItemFontNameSmallest"
+		"font"			"surface9"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
-		"xpos"			"3"
-		"ypos"			"0"
+		"xpos"			"5"
+		"ypos"			"50"
 		"zpos"			"10"
 		"wide"			"220"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -181,8 +202,8 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"xpos"			"5"
-		"ypos"			"28"
+		"xpos"			"230"
+		"ypos"			"8"
 		"zpos"			"20"
 		"wide"			"25"
 		"tall"			"120"
