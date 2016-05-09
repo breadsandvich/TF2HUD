@@ -6,11 +6,11 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"Heal Numbers"
-		"NegativeColor"			"Damage Numbers"
-		"delta_lifetime"		"1.33"
-		"delta_item_font"		"surface20outline"
-		"delta_item_font_big"	"surface20outline"
+		"PositiveColor"			"255 255 255 255"	//healing
+		"NegativeColor"			"255 255 255 255"	//damage
+		"delta_lifetime"		"2"
+		"delta_item_font"		"WebL32OL"
+		"delta_item_font_big"	"WebL32OL"
 	}
 	
 	"DamageAccountValue"
