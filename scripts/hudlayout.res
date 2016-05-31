@@ -5,15 +5,13 @@
 {
 	HudWeaponAmmo
 	{
-		"fieldName"					"HudWeaponAmmo"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c49"
-		"xpos_minmode"				"c49"
-		"ypos"						"r136"
-		"ypos_minmode"				"r136"
-		"wide"						"250"
-		"tall"						"65"
+		"fieldName"		"HudWeaponAmmo"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c125"
+		"ypos"			"c36"
+		"wide"			"300"
+		"tall"			"36"
 	}
 	
 	HudKothTimeStatus
@@ -44,15 +42,13 @@
 	
 	HudMedicCharge
 	{
-		"fieldName"					"HudMedicCharge"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"0"
-		"xpos_minmode"				"0"
-		"ypos"						"0"
-		"ypos_minmode"				"0"
-		"wide"						"f0"
-		"tall"						"480"
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c100"
+		"ypos"			"c36"
+		"wide"			"100"
+		"tall"			"36"
 	}
 	
 	HudDemomanCharge
