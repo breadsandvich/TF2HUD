@@ -142,16 +142,14 @@
 	
 	CMainTargetID
 	{
-		"fieldName"					"CMainTargetID"
-		"visible"					"0"
-		"enabled"					"1"
-		"xpos"						"c-126"
-		"ypos"						"c30"
-		"wide"						"252"
-		"tall"						"24"
-		"tall_minmode"				"24"
-		"priority"					"40"
-		"priority_lodef"			"40"
+		"fieldName" 	"CMainTargetID"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"c-427"
+		"ypos"			"c-66"
+		"wide"	 		"854"
+		"tall"	 		"24"
+		"priority"		"40"
 	}
 	
 	CSpectatorTargetID
@@ -160,15 +158,10 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"xpos"						"c-126"
-		"ypos"						"c100"
+		"ypos"						"c42"
 		"wide"						"252"
 		"tall"						"24"
-		"tall_minmode"				"24"
 		"priority"					"40"
-		"priority_lodef"			"40"
-		
-		"x_offset"					"0"
-		"y_offset"					"0"
 	}
 	
 	CSecondaryTargetID
@@ -177,10 +170,9 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"xpos"						"c-126"
-		"ypos"						"c65"
+		"ypos"						"c72"
 		"wide"						"252"
 		"tall"						"24"
-		"tall_minmode"				"24"
 		"priority"					"35"
 	}
 	
@@ -326,13 +318,13 @@
 	HudMenuEngyBuild
 	{
 		"fieldName"					"HudMenuEngyBuild"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-125"
-		"ypos"						"c-55"
-		"wide"						"250"
-		"tall"						"195"
-		"PaintBackgroundType"		"0"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c125"
+		"ypos"			"c16"
+		"wide"			"999"
+		"tall"			"999"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudMenuEngyDestroy
@@ -361,17 +353,14 @@
 	
 	HudMenuSpyDisguise
 	{
-		"fieldName"					"HudMenuSpyDisguise"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-189"
-		"ypos"						"c-92"
-		"ypos_hidef"				"c-92"
-		"ypos_lodef"				"c-92"
-		"zpos"						"10000"
-		"wide"						"378"
-		"tall"						"200"
-		"PaintBackgroundType"		"0"
+		"fieldName" 	"HudMenuSpyDisguise"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c125"
+		"ypos"			"c-57"
+		"wide"			"999"
+		"tall"			"999"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudDemomanPipes
