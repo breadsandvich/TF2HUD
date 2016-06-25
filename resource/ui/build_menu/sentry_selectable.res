@@ -5,8 +5,14 @@
 	"ItemNameLabel"
 	{	
 		"labelText"			"#TF_Object_Sentry"
-		"font"				"WebL14"
 		"fgcolor_override"	"255 255 255 255"
+		"font"	"WebL14"
+		"xpos"	"0"
+		"ypos"	"0"
+		"textinsetx"	"5"
+		"wide"	"124"
+		"tall"	"15"
+		"textalignment"	"west"
 	}
 	
 	"BuildingIcon"	

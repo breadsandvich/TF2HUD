@@ -4,7 +4,7 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Sentry"
+		"labelText"		"Sentry"
 		"font"				"WebL14"
 		"fgcolor_override"	"255 255 255 255"
 	}

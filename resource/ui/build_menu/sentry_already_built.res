@@ -4,13 +4,11 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"Sentry Gun (Already Built)"
-		"font"				"WebL14"
-		"fgcolor_override"	"255 255 255 255"
+		"labelText"		"Sentry"
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"labelText"		"1"
 	}
 }

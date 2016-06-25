@@ -4,7 +4,7 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_dispenser"
+		"labelText"		"Dispenser"
 	}
 	
 	"NumberLabel"

@@ -5,6 +5,8 @@
 	"ItemNameLabel"
 	{	
 		"labelText"		"Teleporter"
+		"font"				"WebL14"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	
 	"BuildingIcon"	

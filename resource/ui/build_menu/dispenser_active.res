@@ -4,7 +4,7 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#TF_Object_Dispenser"
+		"labelText"		"Dispenser"
 	}
 	
 	"BuildingIcon"	
@@ -15,5 +15,6 @@
 	"NumberLabel"
 	{	
 		"labelText"		"2"
+		"textinsetx"	"4"
 	}
 }
