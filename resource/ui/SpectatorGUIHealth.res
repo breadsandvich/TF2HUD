@@ -70,6 +70,7 @@
 		"textAlignment"		"center"	
 		"font"				"WebL32"
 		"fgcolor"			"255 255 255 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
