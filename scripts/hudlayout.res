@@ -317,26 +317,26 @@
 	
 	HudMenuEngyBuild
 	{
-		"fieldName"					"HudMenuEngyBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c125"
-		"ypos"			"c16"
-		"wide"			"999"
-		"tall"			"999"
+		"fieldName"				"HudMenuEngyBuild"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"c125"
+		"ypos"					"c16"
+		"wide"					"999"
+		"tall"					"999"
 		"PaintBackgroundType"	"0"
 	}
 	
 	HudMenuEngyDestroy
 	{
-		"fieldName"					"HudMenuEngyDestroy"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-125"
-		"ypos"						"c-50"
-		"wide"						"250"
-		"tall"						"195"
-		"PaintBackgroundType"		"0"
+		"fieldName"				"HudMenuEngyDestroy"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"c125"
+		"ypos"					"c16"
+		"wide"					"999"
+		"tall"					"999"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudEurekaEffectTeleportMenu
@@ -357,7 +357,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c125"
-		"ypos"			"c-57"
+		"ypos"			"c-24"
 		"wide"			"999"
 		"tall"			"999"
 		"PaintBackgroundType"	"0"
