@@ -5,14 +5,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"15"
 		"zpos"			"0"
 		"wide"			"124"
-		"tall"			"150"
+		"tall"			"135"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"0 0 0 64"
 	}
 
 	"Divider"
@@ -62,7 +62,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"0 0 0 160"
+		"bgcolor_override"	"0 0 0 128"
 		"fgcolor"			"255 255 255 255"
 	}
 	
