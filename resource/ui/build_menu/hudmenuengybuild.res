@@ -54,10 +54,17 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CancelLabel"
-		"wide"					"0"
-		"tall"					"0"
-		"visible"				"0"
-		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"75"
+		"zpos"					"5"
+		"wide"					"124"
+		"tall"					"10"
+		"font"					"WebL10"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"#Hud_Menu_Build_Cancel"
+		"fgcolor_override"		"255 255 255 255"
+		"textalignment"			"center"
 	}
 	
 	"BuildTitle"
@@ -77,7 +84,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor"				"255 255 255 255"
-		"bgcolor_override"		"0 0 0 160"
+		"bgcolor_override"		"0 0 0 128"
 	}
 	
 	"BuildTitleBG"
@@ -95,14 +102,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"15"
 		"zpos"			"0"
 		"wide"			"124"
-		"tall"			"75"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"0 0 0 64"
 	}
 	"active_item_1"
 	{
