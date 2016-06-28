@@ -1,4 +1,4 @@
 # TF2 HUD
-Yo! I'm BreadSandvich, and I'm making a TF2 HUD. It probably won't be the greatest thing ever, but I'm doing my best. Work will probably be really slow and uncommon, though. Right now only 1920x1080 resolutions are fully supported, but I'll be sure to make versions for other resolitions in the near future.
+Hello! I'm BreadSandvich, and I'm making a custom TF2 HUD. It's certainly not the greatest thing ever, and will most likely never be finished, but it's slowly getting there. Feel free to download/test/edit as you wish. You can also add me on Steam at /id/BreadSandvich to give me feedback which I would appreciate greatly.
 
-If you do decide to download it, I hope you enjoy it. Please add me on Steam at /id/BreadSandvich to send me feedback. Any recommendations would be very helpful!
+Thanks!
