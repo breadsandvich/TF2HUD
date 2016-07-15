@@ -89,7 +89,7 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"0"
+		"xpos"				"c-50"
 		"ypos"				"r200"
 		"zpos"				"2"		
 		"wide"				"100"

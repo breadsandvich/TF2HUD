@@ -27,17 +27,15 @@
 	
 	HudItemEffectMeter
 	{
-		"fieldName"					"HudItemEffectMeter"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-37"
-		"xpos_minmode"				"c-37"
-		"ypos"						"r52"
-		"ypos_minmode"				"r52"
-		"wide"						"100"
-		"tall"						"50"
-		"MeterFG"					"White"
-		"MeterBG"					"Gray"
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r162"
+		"ypos"			"r52"
+		"wide"			"100"
+		"tall"			"50"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
 	}
 	
 	HudMedicCharge
@@ -53,19 +51,16 @@
 	
 	HudDemomanCharge
 	{
-		"fieldName"					"HudDemomanCharge"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-42"
-		"xpos_minmode"				"c-42"
-		"ypos"						"c125"
-		"ypos_minmode"				"c125"
-		"zpos"						"1"
-		"wide"						"84"
-		"wide_minmode"				"84"
-		"tall"						"8"
-		"MeterFG"					"White"
-		"MeterBG"					"Gray"
+		"fieldName"		"HudDemomanCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-100"
+		"ypos"			"c0"
+		"zpos"			"1"			// draw in front of ammo
+		"wide"			"200"
+		"tall"			"200"
+		"MeterFG"		"255 255 255 255"
+		"MeterBG"		"0 0 0 128"
 	}
 	
 	HudBowCharge
@@ -219,30 +214,30 @@
 	
 	HudDeathNotice
 	{
-		"fieldName"					"HudDeathNotice"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"r640"
-		"ypos"						"18"
-		"wide"						"628"
-		"tall"						"468"
+		"fieldName" "HudDeathNotice"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	 "r640"
+		"ypos"	 "5"
+		"wide"	 "635"
+		"tall"	 "468"
 
-		"MaxDeathNotices"			"9"
-		"IconScale"					"0.35"
-		"LineHeight"				"12"
-		"LineSpacing"				"1"
-		"CornerRadius"				"3"
-		"RightJustify"				"1"
+		"MaxDeathNotices" "4"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "15"
+		"LineSpacing"	  "2"
+		"CornerRadius"	  "0"
+		"RightJustify"	  "1"
 		
-		"TextFont"					"surface11"
+		"TextFont"		"WebL14"
 		
-		"TeamBlue"					"78 119 182 255"
-		"TeamRed"					"207 73 50 255"
-		"IconColor"					"255 255 255 255"
-		"LocalPlayerColor"			"HUDBlack"
+		"TeamBlue"		"BreadB"
+		"TeamRed"		"BreadR"
+		"IconColor"		"255 255 255 255"
+		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"		"46 43 42 220"
-		"LocalBackgroundColor"		"235 235 219 220"
+		"BaseBackgroundColor"	"0 0 0 208"
+		"LocalBackgroundColor"	"255 255 255 208"
 	}
 	
 	HudSpellMenu
@@ -298,10 +293,10 @@
 		"fieldName"					"WinPanel"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-145"
-		"ypos"						"315"
-		"wide"						"300"
-		"tall"						"215"
+		"xpos"						"c-125"
+		"ypos"						"r140"
+		"wide"						"250"
+		"tall"						"140"
 	}
 	
 	ArenaWinPanel
@@ -365,16 +360,14 @@
 	
 	HudDemomanPipes
 	{
-		"fieldName"					"HudDemomanPipes"
-		"visible"					"1"
-		"enabled"					"1"
-		"xpos"						"c-42"
-		"xpos_minmode"				"c-42"
-		"ypos"						"c100"
-		"ypos_minmode"				"c100"
-		"wide"						"84"
-		"tall"						"50"
-	}
+		"fieldName"		"HudDemomanPipes"
+		"xpos"			"c-100"
+		"ypos"			"c20"
+		"wide"			"200"
+		"tall"  		"200"
+		"visible" 		"1"
+		"enabled" 		"1"
+	}	
 	
 	HudArenaCapPointCountdown
 	{
