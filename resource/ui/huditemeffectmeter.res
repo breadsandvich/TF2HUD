@@ -9,7 +9,7 @@
 		"ypos"			"c60"
 		"wide"			"200"
 		"tall"			"10"
-		"MeterFG"		"White"
+		"MeterFG"		"255 255 255 255"
 		"MeterBG"		"Gray"
 	}
 	
@@ -69,5 +69,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor"				"White"
 	}					
 }
