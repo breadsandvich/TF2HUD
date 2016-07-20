@@ -129,10 +129,10 @@
 		"fieldName"					"DisguiseStatus"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"80"
-		"ypos"						"c210"
-		"wide"						"150"
-		"tall"						"50"
+		"xpos"						"0"
+		"ypos"						"r100"
+		"wide"						"100"
+		"tall"						"24"
 	}
 	
 	CMainTargetID
