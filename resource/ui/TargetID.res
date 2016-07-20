@@ -83,7 +83,7 @@
 		"visible"			"0"
 		"enabled"			"0"	
 		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.74"
+		"HealthDeathWarning"	"0.75"
 		"TFFont"			"WebL32"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"			"HudOffWhite"
