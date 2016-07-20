@@ -43,6 +43,13 @@
 		"labeltext"			"+"
 		"fgcolor_override"	"255 0 255 255"
 	}
+	"HorizontalLine"
+	{
+		"ControlName"		"CExLabel"
+		"fieldname"			"HorizontalLine"
+		"xpos"				"9999"
+		"ypos"				"9999"
+	}
 	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
