@@ -19,10 +19,10 @@
 		"fieldName"					"HudKothTimeStatus"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-100"
+		"xpos"						"c-50"
 		"ypos"						"0"
-		"wide"						"200"
-		"tall"						"480"
+		"wide"						"100"
+		"tall"						"25"
 	}
 	
 	HudItemEffectMeter

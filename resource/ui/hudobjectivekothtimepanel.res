@@ -12,84 +12,90 @@
 	{
 		"ControlName"			"CTFHudTimeStatus"
 		"fieldName"				"BlueTimer"
-		"xpos"					"10"
-		"ypos"					"467"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"3"
-		"wide"					"115"
-		"tall"					"50"
+		"wide"					"50"
+		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		
-		if_comp
-		{
-			"xpos"				"32"
-			"ypos"				"8"
-		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"surface16"
+			"font"				"WebL24"
 			"fgcolor"			"255 255 255 255"
 			"xpos"				"0"
-			"ypos"				"0"
+			"ypos"				"-1"
 			"zpos"				"4"
-			"wide"				"100"
-			"tall"				"13"
+			"wide"				"50"
+			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
-			
-			if_comp
-			{
-				"font"			"surface14"
-			}
 		}
 	}
-	
+	"BackgroundPanelB"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BackgroundPanelB"
+		"fgcolor"			"255 255 255 255"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"24"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			""
+		"bgcolor_override"	"BreadBST"
+	}
 	"RedTimer"
 	{
 		"ControlName"			"CTFHudTimeStatus"
 		"fieldName"				"RedTimer"
-		"xpos"					"91"
-		"ypos"					"467"
+		"xpos"					"50"
+		"ypos"					"0"
 		"zpos"					"3"
-		"wide"					"115"
-		"tall"					"50"
+		"wide"					"100"
+		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		
-		if_comp
-		{
-			"ypos"				"8"
-			"xpos"				"68"
-		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"surface16"
+			"font"				"WebL24"
 			"fgcolor"			"255 255 255 255"
 			"xpos"				"0"
-			"ypos"				"0"
+			"ypos"				"-1"
 			"zpos"				"4"
-			"wide"				"100"
-			"tall"				"13"
+			"wide"				"50"
+			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
-			
-			if_comp
-			{
-				"font"			"surface14"
-			}
 		}
 	}
-	
+	"BackgroundPanelR"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BackgroundPanelR"
+		"fgcolor"			"255 255 255 255"
+		"xpos"				"50"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			""
+		"bgcolor_override"	"BreadRST"
+	}
 	"ActiveTimerBG"
 	{
 		"ControlName"			"ImagePanel"
