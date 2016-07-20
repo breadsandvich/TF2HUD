@@ -34,7 +34,7 @@
 		"ypos"			"r52"
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"255 255 255 255"
 		"MeterBG"		"Gray"
 	}
 	
@@ -316,9 +316,9 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"					"c125"
-		"ypos"					"c16"
-		"wide"					"999"
-		"tall"					"999"
+		"ypos"					"c21"
+		"wide"					"124"
+		"tall"					"75"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -328,9 +328,9 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"					"c125"
-		"ypos"					"c16"
-		"wide"					"999"
-		"tall"					"999"
+		"ypos"					"c21"
+		"wide"					"124"
+		"tall"					"75"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -352,9 +352,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c125"
-		"ypos"			"c-24"
-		"wide"			"999"
-		"tall"			"999"
+		"ypos"			"c-6"
+		"wide"			"124"
+		"tall"			"140"
 		"PaintBackgroundType"	"0"
 	}
 	
