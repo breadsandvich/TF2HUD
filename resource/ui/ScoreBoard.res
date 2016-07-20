@@ -359,7 +359,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"		"15"
+		"linespacing"	"13"
+		"fgcolor"		"BreadB"
 	}
 	"RedPlayerList"
 	{
@@ -375,7 +376,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"		"15"
+		"linespacing"	"13"
+		"fgcolor"		"BreadR"
 	}
 	"VerticalLine"
 	{
