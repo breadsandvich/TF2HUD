@@ -377,7 +377,7 @@ event FlagOutline
 event OvertimeShow
 {
 	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1	
-	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1	
+	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1
 }
 
 
@@ -559,10 +559,16 @@ event ActiveTimerDim
 
 event OvertimeLabelPulseRed
 {
-	Animate	OvertimeLabel 	FgColor		TanLight	Linear 0.0 0.3
-	Animate	OvertimeLabel 	FgColor		RedSolid	Linear 0.3 0.3
 
-	RunEvent OvertimeLabelPulseRed 0.6
+	Animate	OvertimeLabel	FgColor	"255 0 0 255"	Linear 0.0 0.05
+	Animate	OvertimeLabel	FgColor	"224 0 0 255"	Linear 0.05 0.05
+	Animate	OvertimeLabel	FgColor	"192 0 0 255"	Linear 0.1 0.05
+	Animate	OvertimeLabel	FgColor	"160 0 0 255"	Linear 0.15 0.05
+	Animate	OvertimeLabel	FgColor	"128 0 0 255"	Linear 0.2 0.05
+	Animate	OvertimeLabel	FgColor	"160 0 0 255"	Linear 0.25 0.05
+	Animate	OvertimeLabel	FgColor	"192 0 0 255"	Linear 0.3 0.05
+	Animate	OvertimeLabel	FgColor	"224 0 0 255"	Linear 0.35 0.05
+	RunEvent OvertimeLabelPulseRed 0.35
 }
 
 event SuddenDeathLabelPulseRed
