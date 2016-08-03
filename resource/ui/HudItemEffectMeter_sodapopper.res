@@ -6,26 +6,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"c40"
+		"ypos"			"c36"
 		"wide"			"200"
-		"tall"			"10"
-		"MeterFG"		"255 255 255 255"
-		"MeterBG"		"0 0 0 128"
+		"tall"			"12"
 	}
 	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ItemEffectMeterBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
 		"wide"				"0"
 		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fillcolor"			"0 0 0 0"
-		"scaleImage"		"1"
 	}
 	"ItemEffectMeterLabel"
 	{
@@ -45,19 +38,18 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"WebL10"
+		"font"					"WebL12"
 		"fgcolor_override"		"255 255 255 255"
 	}
-
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"50"
-		"ypos"					"5"
+		"ypos"					"6"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"152"
 		"tall"					"1"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -66,5 +58,7 @@
 		"textAlignment"			"Right"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 128"
 	}					
 }
