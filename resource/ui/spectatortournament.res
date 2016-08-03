@@ -302,24 +302,19 @@
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-150"
-		"ypos"			"56"
-		"wide"			"300"
-		"tall"			"18"
+		"fieldName"			"ReinforcementsLabel"
+		"xpos"				"c-150"
+		"ypos"				"35"
+		"wide"				"300"
+		"tall"				"25"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#game_respawntime_in_secs"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"surface14shadow"
+		"font"				"WebL24"
 		"fgcolor_override" "255 255 255 255"
-		
-		"if_mvm"
-		{
-			"ypos"		"100"
-		}
 	}
 	"BuyBackLabel"
 	{
