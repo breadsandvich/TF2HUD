@@ -55,12 +55,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"c0"
+		"ypos"			"c36"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
-		"tall"			"200"
-		"MeterFG"		"255 255 255 255"
-		"MeterBG"		"0 0 0 128"
+		"tall"			"12"
 	}
 	
 	HudBowCharge
@@ -236,8 +234,8 @@
 		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"0 0 0 208"
-		"LocalBackgroundColor"	"255 255 255 208"
+		"BaseBackgroundColor"	"0 0 0 128"
+		"LocalBackgroundColor"	"255 255 255 128"
 	}
 	
 	HudSpellMenu
@@ -294,9 +292,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-125"
-		"ypos"						"r140"
+		"ypos"						"r120"
 		"wide"						"250"
-		"tall"						"140"
+		"tall"						"120"
 	}
 	
 	ArenaWinPanel
@@ -362,7 +360,7 @@
 	{
 		"fieldName"		"HudDemomanPipes"
 		"xpos"			"c-100"
-		"ypos"			"c20"
+		"ypos"			"c0"
 		"wide"			"200"
 		"tall"  		"200"
 		"visible" 		"1"
@@ -410,12 +408,10 @@
 		"fieldName"					"HudStopWatch"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-161"
-		"ypos"						"-20"
-		"ypos_minmode"				"-20"
-		"ypos_lodef"				"-20"
-		"wide"						"142"
-		"tall"						"55"
+		"xpos"						"c-150"
+		"ypos"						"0"
+		"wide"						"100"
+		"tall"						"25"
 	}
 	
 	NotificationPanel
