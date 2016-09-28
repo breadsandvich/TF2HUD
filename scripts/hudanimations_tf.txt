@@ -227,7 +227,6 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate	PlayerStatusHealthValue	FgColor	"255 255 255 255"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -243,7 +242,7 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValue	FgColor	"160 0 0 255"	Linear 0.25 0.05
 	Animate	PlayerStatusHealthValue	FgColor	"192 0 0 255"	Linear 0.3 0.05
 	Animate	PlayerStatusHealthValue	FgColor	"224 0 0 255"	Linear 0.35 0.05
-	RunEvent HudHealthDyingPulseLoop	0.35
+	RunEvent HudHealthDyingPulseLoop	0.5
 }
 
 // call to loop HudHealthDyingPulse
@@ -254,7 +253,7 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	Animate	PlayerStatusHealthValue	FgColor	"255 255 255 255"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValue FgColor "255 255 255 255" Linear 0.0 0.0
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 }
@@ -290,7 +289,7 @@ event HudLowAmmoPulse
 	Animate	AmmoNoClip	FgColor	"192 0 0 255"	Linear 0.3 0.05
 	Animate	AmmoNoClip	FgColor	"224 0 0 255"	Linear 0.35 0.05
 	
-	RunEvent HudLowAmmoPulseLoop	0.35
+	RunEvent HudLowAmmoPulseLoop	0.5
 }
 
 // call to loop HudLowAmmoPulse
@@ -303,9 +302,6 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	Animate	AmmoInClip		FgColor	"255 255 255 255"	Linear 0.0 0.0
-	Animate	AmmoInReserve	FgColor	"255 255 255 255"	Linear 0.0 0.0
-	Animate	AmmoNoClip		FgColor	"255 255 255 255"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -373,11 +369,44 @@ event FlagOutline
 
 //===========================================
 
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+}
+
+//===========================================
+
 // Show the Overtime panel
 event OvertimeShow
 {
 	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1	
-	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1
+	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1	
 }
 
 
@@ -430,17 +459,13 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel	FgColor	"0 255 0 255"	Linear 0.0 0.05
-	Animate	ChargeLabel	FgColor	"0 224 0 255"	Linear 0.05 0.05
-	Animate	ChargeLabel	FgColor	"0 192 0 255"	Linear 0.1 0.05
-	Animate	ChargeLabel	FgColor	"0 160 0 255"	Linear 0.15 0.05
-	Animate	ChargeLabel	FgColor	"0 128 0 255"	Linear 0.2 0.05
-	Animate	ChargeLabel	FgColor	"0 160 0 255"	Linear 0.25 0.05
-	Animate	ChargeLabel	FgColor	"0 192 0 255"	Linear 0.3 0.05
-	Animate	ChargeLabel	FgColor	"0 224 0 255"	Linear 0.35 0.05
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
 
-	RunEvent HudMedicChargedLoop	0.35
+	RunEvent HudMedicChargedLoop	0.6
 }
 
 // call to loop HudHealthBonusPulse
@@ -454,7 +479,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.0
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -559,7 +585,6 @@ event ActiveTimerDim
 
 event OvertimeLabelPulseRed
 {
-
 	Animate	OvertimeLabel	FgColor	"255 0 0 255"	Linear 0.0 0.05
 	Animate	OvertimeLabel	FgColor	"224 0 0 255"	Linear 0.05 0.05
 	Animate	OvertimeLabel	FgColor	"192 0 0 255"	Linear 0.1 0.05
@@ -568,7 +593,7 @@ event OvertimeLabelPulseRed
 	Animate	OvertimeLabel	FgColor	"160 0 0 255"	Linear 0.25 0.05
 	Animate	OvertimeLabel	FgColor	"192 0 0 255"	Linear 0.3 0.05
 	Animate	OvertimeLabel	FgColor	"224 0 0 255"	Linear 0.35 0.05
-	RunEvent OvertimeLabelPulseRed 0.35
+	RunEvent OvertimeLabelPulseRed 0.5
 }
 
 event SuddenDeathLabelPulseRed
@@ -1572,16 +1597,6 @@ event HudTournament_HideTimer
 	SetVisible CountdownLabelShadow 0 0
 }
 
-event CompetitiveGame_HideDisconnectButton
-{
-	Animate DisconnectButton ypos r-100 Accel 0 0
-}
-
-event CompetitiveGame_ShowDisconnectButton
-{
-	Animate DisconnectButton ypos r30 Accel 0 0.4
-}
-
 event HudTournament_ShowRoundSign
 {
 	SetVisible RoundSignModel 1 0
@@ -1738,13 +1753,14 @@ event PvPRankLevelDownModel
 event CompetitiveGame_ShowPvPRankPanel
 {
 	Animate RankPanel ypos r0 Linear 0 0
-	Animate RankPanel ypos r295 Bias 0.90 0.2 0.3
-	RunEventChild RankPanel PvPRankPanelShowXPChange 1
+	Animate RankPanel ypos r285 Bias 0.90 0.2 0.3
+	RunEventChild RankPanel PvPRankPanelShowXPChange 0
 }
 
 event PvPRankPanelShowXPChange
 {
-	FireCommand 0 "begin_xp_lerp"
+	FireCommand 0 "update_base_state"
+	FireCommand 1 "begin_xp_lerp"
 }
 
 event PyroVsHeavyWar_ShowChooseScene
@@ -1760,6 +1776,19 @@ event PyroVsHeavyWar_ShowChooseScene
 	Animate Heavy		ypos -60	Bias 0.9 0 1
 	Animate Pyro		ypos -60	Bias 0.9 0 1
 	Animate Foreground	ypos 65		Bias 0.9 0 1
+}
+
+event PyroVsHeavyWar_PyroWinnerScene
+{
+	// Reset
+	Animate Background			ypos -220 Linear 0 0
+	Animate PyroWinMidground	ypos -180 Linear 0 0
+	Animate Foreground			ypos 40 Linear 0 0
+
+	// Paralax
+	Animate Background			ypos -175	Bias 0.9 0 1
+	Animate PyroWinMidground	ypos -100	Bias 0.9 0 1
+	Animate Foreground			ypos 75		Bias 0.9 0 1
 }
 
 event CasualCategory_Checkbox_Hide
@@ -1790,6 +1819,16 @@ event CasualCategory_NotSelected
 {
 	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
 	Animate Title		FgColor TanDark Deaccel 0 0.2
+}
+
+event CategoryMap_Selected
+{
+	Animate HealthProgressBar	Alpha 255 Deaccel 0 0.2
+}
+
+event CategoryMap_NotSelected
+{
+	Animate HealthProgressBar	Alpha 50 Deaccel 0 0.2
 }
 
 event MMenu_UpdateButton_StartGlow
@@ -1826,6 +1865,39 @@ event MMenu_UpdateButton_SubtleGlow
 	Animate ViewWarButtonGlow BgColor "178 83 22 255" Linear 0.2 1.0
 
 	RunEvent MMenu_UpdateButton_SubtleGlow 5
+}
+
+event XPSourceShow_Positive
+{
+	Animate SourceLabel		Alpha		0				Linear 0 0
+	Animate SourceLabelGlow Alpha		0				Linear 0 0
+
+	Animate SourceLabel		Alpha		255				Linear 0.1 0.3
+	Animate SourceLabel FgColor		"100 255 100 255"	Linear	0.1 0
+	Animate SourceLabel FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabel ypos		-25					Deaccel  0 3.0
+	Animate SourceLabel Alpha		0					Linear 2.9 0.3
+
+	Animate SourceLabelGlow Alpha		255					Linear	0.0 0.1
+	Animate SourceLabelGlow FgColor		"100 255 100 255"	Linear	0.1 0
+	Animate SourceLabelGlow FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabelGlow Alpha		200					Linear	0.5 1
+	Animate SourceLabelGlow ypos		-25					Deaccel  0 3.0
+	Animate SourceLabelGlow Alpha		0					Linear 2.9 0.3
+}
+
+event XPSourceShow_Negative
+{
+	Animate SourceLabel		Alpha		0				Linear 0 0
+	Animate SourceLabelGlow Alpha		0				Linear 0 0
+
+	Animate SourceLabel	Alpha		255					Linear	0.1 0.3
+	Animate SourceLabel FgColor		"255 100 100 255"	Linear	0.1 0
+	Animate SourceLabel FgColor		RedSolid			Linear	0.5 1
+	Animate SourceLabel Alpha		0					Linear	2.9 0.1
+	Animate SourceLabel ypos		-15					Linear 0 0.4
+
+	Animate SourceLabelGlow Alpha		0					Linear	0	0
 }
 
 //
