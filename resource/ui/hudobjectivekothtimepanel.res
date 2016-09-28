@@ -41,12 +41,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BackgroundPanelB"
-		"fgcolor"			"255 255 255 255"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"50"
-		"tall"				"24"
+		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
@@ -85,7 +84,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BackgroundPanelR"
-		"fgcolor"			"255 255 255 255"
 		"xpos"				"50"
 		"ypos"				"0"
 		"zpos"				"0"

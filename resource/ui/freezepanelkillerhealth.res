@@ -45,14 +45,14 @@
 		"ControlName"		"Label"
 		"fieldName"			"PlayerStatusHealthValue"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-1"
 		"zpos"				"5"
-		"wide"				"30"
-		"tall"				"20"
+		"wide"				"40"
+		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"center"
-		"font"				"surface16"
+		"font"				"WebL32"
 		"labelText"			"%Health%"
 	}
 }

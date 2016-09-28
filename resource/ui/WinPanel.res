@@ -299,7 +299,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"MVPs:"
+		"labelText"			"Top Players:"
 		"textAlignment"		"west"
 		"textinsetx"		"5"
 		"dulltext"			"0"

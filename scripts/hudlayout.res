@@ -98,11 +98,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"					"CHudAccountPanel"
-		"xpos"						"c-80"
-		"ypos"						"c105"
-		"ypos_minmode"				"c105"
-		"wide"						"160"
-		"tall"						"180"
+		"xpos"						"c175"
+		"ypos"						"c48"
+		"wide"						"110"
+		"tall"						"48"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"2"
@@ -111,11 +110,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"					"CHealthAccountPanel"
-		"xpos"						"c-250"
-		"xpos_minmode"				"c-250"
-		"ypos"						"369"
-		"ypos_minmode"				"369"
-		"wide"						"f0"
+		"xpos"						"c-175"
+		"ypos"						"c71"
+		"wide"						"100"
 		"tall"						"24"
 		"visible"					"1"
 		"enabled"					"1"
@@ -235,7 +232,7 @@
 		"LocalPlayerColor"	"0 0 0 255"
 
 		"BaseBackgroundColor"	"0 0 0 128"
-		"LocalBackgroundColor"	"255 255 255 128"
+		"LocalBackgroundColor"	"255 255 255 255"
 	}
 	
 	HudSpellMenu
@@ -302,12 +299,12 @@
 		"fieldName"					"ArenaWinPanel"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-145"
-		"ypos"						"315"
-		"wide"						"300"
-		"tall"						"215"
+		"xpos"						"c-125"
+		"ypos"						"r113"
+		"wide"						"250"
+		"tall"						"120"
 	}
-	
+
 	HudMenuEngyBuild
 	{
 		"fieldName"				"HudMenuEngyBuild"
@@ -360,8 +357,8 @@
 	{
 		"fieldName"		"HudDemomanPipes"
 		"xpos"			"c-100"
-		"ypos"			"c0"
-		"wide"			"200"
+		"ypos"			"c48"
+		"wide"			"400"
 		"tall"  		"200"
 		"visible" 		"1"
 		"enabled" 		"1"
