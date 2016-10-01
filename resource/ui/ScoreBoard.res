@@ -14,7 +14,7 @@
 		"enabled"					"1"
 		"tabPosition"				"0"
 		"medal_width"				"0"
-		"avatar_width"				"57"
+		"avatar_width"				"2"
 		"spacer"					"1"
 		"name_width"				"85" // lower this value if the ping column cuts off
 		"nemesis_width"				"15"
@@ -22,7 +22,7 @@
 		"score_width"				"25"
 		"ping_width"				"20"
 		"stats_width"				"30"
-		"killstreak_width"			"15"
+		"killstreak_width"			"-1500"
 		"killstreak_image_width"	"15"
 
 		if_mvm
@@ -30,76 +30,6 @@
 			"visible"		"0"
 		}
 	}
-	"FakeCrosshair"
-	{
-		"ControlName"		"CExLabel"
-		"fieldname"			"FakeCrosshair"
-		"xpos"				"c-7"
-		"ypos"				"c-17"
-		"zpos"				"10"
-		"wide"				"28"
-		"tall"				"28"
-		"font"				"WebL28"
-		"labeltext"			"+"
-		"fgcolor_override"	"255 0 255 255"
-	}
-	"HorizontalLine"
-	{
-		"ControlName"		"CExLabel"
-		"fieldname"			"HorizontalLine"
-		"xpos"				"9999"
-		"ypos"				"9999"
-	}
-	"BlueScoreBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BlueScoreBG"
-		"xpos"				"0"
-		"ypos"				"c-150"
-		"zpos"				"1"
-		"wide"				"250"
-		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"BreadBST"
-		"scaleImage"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedScoreBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"RedScoreBG"
-		"xpos"				"r250"
-		"ypos"				"c-150"
-		"zpos"				"1"
-		"wide"				"250"
-		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"
-		"fillcolor"			"BreadRST"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"MainBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"			"MainBG"
-		"visible"			"0"
-		"enabled"			"0"
-	}		
-
 	"CreditsBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -125,18 +55,60 @@
 			"visible"		"0"
 		}
 	}
-	
+	"FakeCrosshair"
+	{
+		"ControlName"		"CExLabel"
+		"fieldname"			"FakeCrosshair"
+		"xpos"				"c-7"
+		"ypos"				"c-17"
+		"zpos"				"10"
+		"wide"				"28"
+		"tall"				"28"
+		"font"				"WebL28"
+		"labeltext"			"+"
+		"fgcolor_override"	"255 0 255 255"
+	}
+	"BlueScoreBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlueScoreBG"
+		"xpos"				"c-114"
+		"ypos"				"c-55"
+		"zpos"				"10"
+		"wide"				"56"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"BreadB"
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamLabel"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+	}
+	"BlueTeamLabel_"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"BlueTeamLabel_"
 		"font"				"WebL24"
-		"labelText"			"%blueteamname%"
+		"labelText"			"BLU"
 		"textAlignment"		"center"
-		"xpos"				"20"
-		"ypos"				"c-151"
-		"zpos"				"2"
-		"wide"				"250"
+		"xpos"				"c-114"
+		"ypos"				"c-55"
+		"zpos"				"11"
+		"wide"				"56"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -159,13 +131,13 @@
 		"textinsetx"		"5"
 		"xpos"				"200"
 		"ypos"				"c-151" 
-		"zpos"				"2"
-		"wide"				"50"
-		"tall"				"25"
+		"zpos"				"5"
+		"wide"				"0"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"fgcolor_override"	"255 255 255 255"
 		
 		if_mvm
@@ -196,42 +168,73 @@
 			"visible"		"0"
 		}
 	}
-
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamPlayerCount"
-		"font"				"WebL24"
-		"labelText"			"%blueteamplayercount%"
-		"textAlignment"		"west"
-		"xpos"				"0"
-		"ypos"				"c-151"
-		"zpos"				"2"
-		"wide"				"250"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+	}
+	"BluePlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"BluePlayerList"
+		"xpos"			"c-116"
+		"ypos"			"c-42"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"90"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"13"
+		"fgcolor"		"BreadB"
+	}
+	"RedScoreBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RedScoreBG"
+		"xpos"				"c58"
+		"ypos"				"c-55"
+		"zpos"				"10"
+		"wide"				"56"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor"			"255 255 255 255"
-		"textinsetx"		"5"
+		"scaleImage"		"1"
+		"fillcolor"			"BreadR"
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}							
+	}				
 	"RedTeamLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamLabel"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+	}
+	"RedTeamLabel_"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"RedTeamLabel_"
 		"font"				"WebL24"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"center"
-		"xpos"				"r270"
-		"ypos"				"c-151"
-		"zpos"				"2"
-		"wide"				"250"
+		"xpos"				"c58"
+		"ypos"				"c-55"
+		"zpos"				"11"
+		"wide"				"56"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -255,12 +258,12 @@
 		"xpos"				"r250"
 		"ypos"				"c-151" 
 		"zpos"				"2"
-		"wide"				"50"
-		"tall"				"25"
+		"wide"				"0"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"fgcolor_override"	"255 255 255 255"
 		
 		if_mvm
@@ -285,13 +288,13 @@
 		"xpos"				"r250"
 		"ypos"				"c-151"
 		"zpos"				"2"
-		"wide"				"250"
-		"tall"				"25"
+		"wide"				"0"
+		"tall"				"0"
 		"textinsetx"		"5"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"fgcolor_override"	"255 255 255 255"
 		
 		if_mvm
@@ -299,17 +302,33 @@
 			"visible"		"0"
 		}
 	}
+	"RedPlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"RedPlayerList"
+		"xpos"			"c56"
+		"ypos"			"c-42"
+		"zpos"			"9"
+		"wide"			"60"
+		"tall"			"90"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"13"
+		"fgcolor"		"BreadR"
+	}
 	"ServerLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerLabel"
 		"font"				"WebL14"
 		"labelText"			"%server%"
-		"textAlignment"		"west"
-		"xpos"				"0"
-		"ypos"				"c-165"
-		"wide"				"250"
-		"textinsetx"		"5"
+		"textAlignment"		"center"
+		"xpos"				"c-114"
+		"ypos"				"c48"
+		"wide"				"228"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -329,11 +348,10 @@
 		"font"				"WebL14"
 		"fgcolor" 			"255 255 255 255"
 		"labelText"			"%servertimeleft%"
-		"textAlignment"		"east"
-		"textinsetx"		"5"
-		"xpos"				"r250"
-		"ypos"				"c-165"
-		"wide"				"250"
+		"textAlignment"		"center"
+		"xpos"				"c-114"
+		"ypos"				"c59"
+		"wide"				"228"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -344,47 +362,6 @@
 		{
 			"visible"		"0"
 		}
-	}							
-	"BluePlayerList"
-	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"BluePlayerList"
-		"xpos"			"-2"
-		"ypos"			"c-125"
-		"zpos"			"20"
-		"wide"			"254"
-		"tall"			"300"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"13"
-		"fgcolor"		"BreadB"
-	}
-	"RedPlayerList"
-	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"RedPlayerList"
-		"xpos"			"r252"
-		"ypos"			"c-125"
-		"zpos"			"20"
-		"wide"			"254"
-		"tall"			"300"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"13"
-		"fgcolor"		"BreadR"
-	}
-	"VerticalLine"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"VerticalLine"
-		"visible"			"0"
-		"enabled"			"0"
 	}
 	"Spectators"
 	{
@@ -393,10 +370,10 @@
 		"font"				"WebL14"
 		"labelText"			"%spectators%"
 		"textAlignment"		"center"
-		"xpos"				"c-427"
-		"ypos"				"r65"
+		"xpos"				"c-114"
+		"ypos"				"c70"
 		"zpos"				"4"
-		"wide"				"854"
+		"wide"				"228"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -423,8 +400,8 @@
 		"xpos"				"c-427"
 		"ypos"				"r50"
 		"zpos"				"2"
-		"wide"				"854"
-		"tall"				"50"
+		"wide"				"0"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -468,8 +445,8 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"255 255 255 255"
 
 		if_mvm
@@ -485,15 +462,13 @@
 		"xpos"		"0"
 		"ypos"		"350"
 		"ypos_minmode"	"328"
-		"zpos"			"3"
-		"wide"		"600"
-		"wide_minmode"	"254"
-		"tall"		"53"
-		"tall_minmode"	"153"
+		"zpos"			"1"
+		"wide"		"0"
+		"tall"		"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		"DuelingLabel"
 		{
@@ -725,12 +700,12 @@
 		"xpos"				"c-172"
 		"ypos"				"r50"
 		"zpos"				"3"
-		"wide"				"344"
-		"tall"				"50"
+		"wide"				"0"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		
 		if_mvm
 		{
@@ -1505,12 +1480,12 @@
 		"xpos"			"10"
 		"ypos"			"373"
 		"zpos"			"0"
-		"wide"			"539"
+		"wide"			"0"
 		"tall"			"0"		//38
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
@@ -1523,9 +1498,9 @@
 		"xpos"			"10"
 		"ypos"			"373"
 		"zpos"			"1"
-		"wide"			"539"
+		"wide"			"0"
 		"tall"			"0"		//150
-		"visible"		"1"
+		"visible"		"0"
 										
 		"SelectHintIcon"
 		{
@@ -1666,5 +1641,32 @@
 		{
 			"visible"		"1"
 		}
+	}
+	"BlueTeamImage"
+	{
+		"ControlName"	"CTFImage"
+		"fieldName"		"BlueTeamImage"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"RedTeamImage"
+	{
+		"ControlName"	"CTFImage"
+		"fieldName"		"RedTeamImage"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"ClassImage"
+	{
+		"ControlName"	"CTFImage"
+		"fieldName"		"ClassImage"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }
