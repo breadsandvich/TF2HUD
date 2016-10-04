@@ -12,6 +12,10 @@
 		"ypos"			"c36"
 		"wide"			"300"
 		"tall"			"36"
+		"xpos_minmode"			"c125"
+		"ypos_minmode"			"c36"
+		"wide_minmode"			"300"
+		"tall_minmode"			"36"
 	}
 	
 	HudKothTimeStatus
@@ -23,6 +27,10 @@
 		"ypos"						"0"
 		"wide"						"100"
 		"tall"						"25"
+		"xpos_minmode"						"c-50"
+		"ypos_minmode"						"0"
+		"wide_minmode"						"100"
+		"tall_minmode"						"25"
 	}
 	
 	HudItemEffectMeter
@@ -34,6 +42,10 @@
 		"ypos"			"r52"
 		"wide"			"100"
 		"tall"			"50"
+		"xpos_minmode"			"r162"
+		"ypos_minmode"			"r52"
+		"wide_minmode"			"100"
+		"tall_minmode"			"50"
 		"MeterFG"		"255 255 255 255"
 		"MeterBG"		"Gray"
 	}
@@ -47,6 +59,10 @@
 		"ypos"			"c36"
 		"wide"			"100"
 		"tall"			"36"
+		"xpos_minmode"			"c100"
+		"ypos_minmode"			"c36"
+		"wide_minmode"			"100"
+		"tall_minmode"			"36"
 	}
 	
 	HudDemomanCharge
@@ -59,6 +75,10 @@
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
 		"tall"			"12"
+		"xpos_minmode"			"c-100"
+		"ypos_minmode"			"c36"
+		"wide_minmode"			"200"
+		"tall_minmode"			"12"
 	}
 	
 	HudBowCharge
@@ -74,6 +94,7 @@
 		"wide"						"84"
 		"wide_minmode"				"84"
 		"tall"						"50"
+		"tall_minmode"				"50"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}
@@ -102,6 +123,10 @@
 		"ypos"						"c48"
 		"wide"						"110"
 		"tall"						"48"
+		"xpos_minmode"						"c175"
+		"ypos_minmode"						"c48"
+		"wide_minmode"						"110"
+		"tall_minmode"						"48"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"2"
@@ -114,6 +139,10 @@
 		"ypos"						"c71"
 		"wide"						"100"
 		"tall"						"24"
+		"xpos_minmode"						"c-175"
+		"ypos_minmode"						"c71"
+		"wide_minmode"						"100"
+		"tall_minmode"						"24"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"2"
@@ -128,6 +157,10 @@
 		"ypos"						"r100"
 		"wide"						"100"
 		"tall"						"24"
+		"xpos_minmode"						"0"
+		"ypos_minmode"						"r100"
+		"wide_minmode"						"100"
+		"tall_minmode"						"24"
 	}
 	
 	CMainTargetID
@@ -139,6 +172,10 @@
 		"ypos"			"c-66"
 		"wide"	 		"854"
 		"tall"	 		"24"
+		"xpos_minmode"			"c-427"
+		"ypos_minmode"			"c-66"
+		"wide_minmode"	 		"854"
+		"tall_minmode"	 		"24"
 		"priority"		"40"
 	}
 	
@@ -151,6 +188,10 @@
 		"ypos"						"c42"
 		"wide"						"252"
 		"tall"						"24"
+		"xpos_minmode"						"c-126"
+		"ypos_minmode"						"c42"
+		"wide_minmode"						"252"
+		"tall_minmode"						"24"
 		"priority"					"40"
 	}
 	
@@ -163,6 +204,10 @@
 		"ypos"						"c72"
 		"wide"						"252"
 		"tall"						"24"
+		"xpos_minmode"						"c-126"
+		"ypos_minmode"						"c72"
+		"wide_minmode"						"252"
+		"tall_minmode"						"24"
 		"priority"					"35"
 	}
 	
@@ -173,6 +218,10 @@
 		"ypos"						"440"
 		"wide"						"100"
 		"tall"						"40"
+		"xpos_minmode"						"c-50"
+		"ypos_minmode"						"440"
+		"wide_minmode"						"100"
+		"tall_minmode"						"40"
 		"visible"					"1"
 		"enabled"					"1"
 		"PaintBackgroundType"		"2"
